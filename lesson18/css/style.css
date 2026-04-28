@@ -1,0 +1,65 @@
+:root{
+    --primry-color:white;
+    --secondary-color:blue;
+    --padding:20px;
+}
+
+h1{
+    background-color: var(--secondary-color);
+    color: var(--padding);
+    padding: var(--padding);
+}
+
+p{
+    background-color: var(--secondary-color);
+    color:var(--primry-color);
+    padding: var(--padding);
+}
+
+#example-one{
+    margin: 10px;
+    height: 150px;
+    width:150px;
+    border-radius: 20px;
+    background-color: yellow;
+}
+
+#example-two{
+    margin: 10px;
+    height: 150px;
+    width:150px;
+    border-radius: 3px solid yellow;
+}
+
+#example-three{
+    margin: 10px;
+    height: 150px;
+    width:150px;
+    border-radius: 20px solid yellow;
+    background: url(../teuta.png);
+}
+
+#example-four{
+    margin: 10px;
+    height: 150px;
+    width:150px;
+    border-radius: 5px 60px 5px;
+    background-color: yellow;
+}
+
+#example-five{
+    margin: 10px;
+    height: 150px;
+    width:150px;
+    border-radius: 10/30px;
+    background-color: yellow;
+}
+
+#example-five{
+    margin: 10px;
+    height: 150px;
+    width:150px;
+    border-radius: 30/10px;
+    background-color: yellow;
+}
+
